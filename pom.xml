@@ -41,7 +41,7 @@
 
         <!--eclipse collections-->
         <ec.version>[7.0.0,)</ec.version>
-        <guava.version>[15.0,)</guava.version>
+        <guava.version>18.0</guava.version> <!-- forced to Guava 18 as the OSGi headers pick the latest major number - this needs to match up with other bundles we use -->
 
         <elsa.version>3.0.0-M5</elsa.version>
 
